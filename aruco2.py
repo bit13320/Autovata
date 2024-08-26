@@ -20,7 +20,7 @@ marker_dict = aruco.Dictionary_get(aruco.DICT_4X4_50)
 
 param_markers = aruco.DetectorParameters_create()
 
-cap = WindowCapture('''OC105''')
+cap = WindowCapture('''OC105''')#change this name to your scrcpy window name
 loop_time = time()
 while True:
     frame = cap.get_screenshot()
